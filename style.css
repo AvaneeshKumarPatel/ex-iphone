@@ -63,3 +63,10 @@ opacity: 0px;
 justify-content: end;
 align-items: end;
 }
+
+
+
+.landing-part-bg{
+    width: 100%;
+    height: auto;
+}
