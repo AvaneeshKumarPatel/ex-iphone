@@ -11,62 +11,23 @@ url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,30
 }
 
 
-
-
-
-
-.landing-page {
-width: 1440px;
-height: 5014px;
-}
-.navbar-special {
-width: 1440px;
-height: 70px;
-top: 773px;
-display: flex;
-justify-content:space-between;
-align-items: center;
-padding: 0 20px;
+.lading-page{
+    width: 1440px;
+    height: 5014px;
+     top: 0;
 }
 
-.logo {
-width: 95px;
-height: 24px;
-top: 23px;
-left: 226px;
-}
-.routes {
-/* width: 230px;
-height: 24px;
-top: 23px;
-left: 605px; */
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-flex-grow: 1;
-text-align: center;
-}
-.routes,
-a {
-text-decoration: none;
-display: inline-block;
-margin-right: 15px;
-}
-.Auth{
-/* width: 136px;
-height: 24px;
-top: 23px;
-left: 1146px; */
-gap: 0px;
-opacity: 0px;
-justify-content: end;
-align-items: end;
-}
-
-
-
-.landing-part-bg{
+.navbar-1{
     width: 100%;
-    height: auto;
+    height: 70px;
+
 }
+
+.logo{
+    width: 125px;
+    height: 29px;
+    top: 21px;
+    left: 196px;
+     
+}
+
