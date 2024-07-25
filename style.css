@@ -26,8 +26,6 @@ url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,30
 }
 
 
-
-
 .navbar-1{
     width: 100%;
     height: 70px;
@@ -107,4 +105,90 @@ left: 194px;
 gap: 0px;
 opacity: 0px;
 color: rgba(139, 142, 153, 1);
+}
+
+
+
+.search-bar{
+   
+    width: 443px;
+    height: 60px;
+    top: 613px;
+    left: 194px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+
+
+.input-feilds {
+
+border-radius: 0px;   
+text-decoration: none;
+border: none;
+background: none;
+
+width: 418px;
+height: 49px;
+top: 618px;
+left: 213px;
+gap: 0px;
+opacity: 0px;
+font-size: 17px;
+font-weight: bold;
+
+
+    /* flex: 1;
+    border: none;
+    /* padding: 10px 15px; */
+    /* font-size: 16px;
+    color: #888888;
+    outline: none; */
+    
+}
+
+
+.search-button{
+
+
+width: 143px;
+height: 49px;
+top: 618px;
+left: 488px;
+gap: 0px;
+opacity: 0px;
+    
+
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+
+
+background-color: #3b82f6;
+border-radius: 12px;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-color: #3b82f6;
+}
+
+
+
+.search-icon{
+width: 21px;
+height: 21px;
+top: 632px;
+left: 213px;
+gap: 0px;
+opacity: 0px;
+
 }
