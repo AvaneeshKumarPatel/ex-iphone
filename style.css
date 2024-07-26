@@ -28,6 +28,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
+    top: 20px;
 }
 
 .logo {
@@ -91,6 +93,15 @@ span {
     line-height: 71.53px;
     text-align: left;
     color: aliceblue;
+  position: relative;
+
+    width: 457px;
+height: 228px;
+top: 246px;
+left: 192px;
+gap: 0px;
+opacity: 0px;
+
 
 }
 
@@ -106,6 +117,8 @@ span {
     gap: 0px;
     opacity: 0px;
     color: rgba(139, 142, 153, 1);
+    position: relative;
+
 }
 
 
@@ -126,6 +139,7 @@ span {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
+    position: absolute;
 
 }
 
@@ -145,6 +159,7 @@ span {
     margin-left: 20px;
     border: none;
     outline: none;
+
 
     
       
@@ -196,12 +211,38 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 /* Product section */
 
 .category{
-    width: 1141px;
+    /* width: 1141px; */
     height: 231px;
     top: 880px;
     left: 150px;
     gap: 0px;
     opacity: 0px;
+    
+}
+
+.products{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* width: 1141px; */
+    height: 231px;
+}
+
+.tagLine-products{
+
+/* width: 620.2px; */
+height: 108px;
+top: 880px;
+left: 410px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Poppins;
+font-size: 43px;
+font-weight: 700;
+line-height: 52.01px;
+letter-spacing: -0.14399999380111694px;
+text-align: center;
+color:  #8B8E99;
+padding: 20px;
+
 }
