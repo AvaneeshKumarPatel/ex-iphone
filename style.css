@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    padding: 20px;
 }
 
 .logo {
@@ -48,6 +48,8 @@
     word-spacing: 10px;
     font-family: poppins;
     margin-left: -321px
+     
+
     
 }
 
@@ -57,7 +59,6 @@
     top: 23px;
     left: 1146px;
     font-family: poppins;
-
 }
 
 Routes,
@@ -192,3 +193,15 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 
 
+/* Product section */
+
+.category{
+    width: 1141px;
+    height: 231px;
+    top: 880px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+}
