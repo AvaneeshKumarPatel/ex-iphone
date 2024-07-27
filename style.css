@@ -94,7 +94,7 @@ span {
     text-align: left;
     color: aliceblue;
   position: relative;
-
+   padding: -20px;
     width: 457px;
 height: 228px;
 top: 246px;
