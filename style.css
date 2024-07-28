@@ -50,9 +50,6 @@
     word-spacing: 10px;
     font-family: poppins;
     margin-left: -321px
-     
-
-    
 }
 
 .Auth {
@@ -93,14 +90,14 @@ span {
     line-height: 71.53px;
     text-align: left;
     color: aliceblue;
-  position: relative;
-   padding: -20px;
+    position: relative;
+    padding: -20px;
     width: 457px;
-height: 228px;
-top: 108px;
-left: 192px;
-gap: 0px;
-opacity: 0px;
+    height: 228px;
+    top: 108px;
+    left: 192px;
+    gap: 0px;
+    opacity: 0px;
 
 
 }
@@ -161,8 +158,8 @@ opacity: 0px;
     outline: none;
 
 
-    
-      
+
+
 }
 
 
@@ -171,7 +168,9 @@ opacity: 0px;
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
 
 
 .search-button {
@@ -210,17 +209,18 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 /* Product section */
 
-.category{
+.category {
     /* width: 1141px; */
     height: 231px;
     top: 880px;
     left: 150px;
     gap: 0px;
     opacity: 0px;
-    
+    margin: 36px;
+
 }
 
-.products{
+.products {
     display: flex;
     justify-content: space-evenly;
     /* width: 1141px; */
@@ -228,64 +228,152 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     margin-left: 140px;
     margin-right: 177px;
 
-   
+
 
 
 }
 
-.tagLine-products{
+.tagLine-products {
 
-/* width: 620.2px; */
-height: 108px;
-top: 880px;
-left: 410px;
-gap: 0px;
-opacity: 0px;
+    /* width: 620.2px; */
+    height: 108px;
+    top: 880px;
+    left: 410px;
+    gap: 0px;
+    opacity: 0px;
 
-font-family: Poppins;
-font-size: 43px;
-font-weight: 700;
-line-height: 52.01px;
-letter-spacing: -0.14399999380111694px;
-text-align: center;
-color:  #8B8E99;
-padding: 20px;
-
-}
-
-
-
-
-
-.iPhone{
-/* width: 1440px; */
-height: 788px;
-top: 1185px;
-padding: 130px 239.5px 0px 239.5px;
-gap: 0px;
-opacity: 0px;
-background-color: #000000;
-;
-}
-
-
-
-.Texts{
-
-}
-
-.logo-0{
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+    color: #8B8E99;
+    padding: 20px;
 
 }
 
 
 
-.price{
+
+
+.iPhone {
+    /* width: 1440px; */
+    height: 738px;
+    top: 1185px;
+    padding: 130px 239.5px 0px 239.5px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #000000;
 
 }
 
+.iphone-section {
+    margin-left: 221px;
+    width: 484px;
+    height: 176px;
+    top: 130px;
+    left: 477.7px;
+    gap: 0px;
+}
 
-.LearnMore{
 
-    
+.logo-0 {
+    position: absolute;
+    top: 1207px;
+    left: 557px;
+    /* width: 328px;
+    height: 64px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.price {
+    position: absolute;
+    width: 484px;
+    height: 29px;
+    top: 1294px;
+    left: 477.7px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+.lernMorebtn {
+    position: sticky;
+    width: 146px;
+    height: 30px;
+    top: -270px;
+    left: 707px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: left;
+    color: #3b82f6;
+
+
+}
+
+.LearnMore {
+    position: relative;
+    width: 276px;
+    height: 42px;
+    top: 103px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.buy {
+    border: none;
+    border-radius: 10px;
+    width: 121px;
+    height: 39px;
+    top: 264px;
+    left: 582px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #3858D6;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.57px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.figure {
+
+    position: relative;
+    width: 966px;
+    height: 393px;
+    top: 36px;
+    left: 19.5px;
+    gap: 0px;
+    opacity: 0px;
+
 }
