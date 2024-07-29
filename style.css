@@ -259,7 +259,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .iPhone {
     /* width: 1440px; */
-    height: 738px;
+    height: 735px;
     top: 1185px;
     padding: 130px 239.5px 0px 239.5px;
     gap: 0px;
@@ -375,5 +375,73 @@ input[type="search"]::-webkit-search-results-decoration {
     left: 19.5px;
     gap: 0px;
     opacity: 0px;
+}
 
+
+
+.collection-page{
+
+width: 1441px;
+height: 693px;
+top: 1973px;
+left: -1px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.slick-slider{
+        display: flex;
+        justify-content: center;
+        width: 1440px;
+        height: 486px;
+        top: 2141px;
+        gap: 16px;
+        opacity: 0px;
+        /* margin-top: 16rem;         */
+
+}
+
+
+
+
+.heding-collection-page{ 
+    margin-top: 81px;
+    margin-left: 18rem;
+ /* position: absolute;    */
+width: 996px;
+height: 108px;
+top: 2013px;
+left: 221px;
+gap: 0px;
+opacity: 0px;
+font-size: 43px;
+font-weight: 700;
+line-height: 52.01px;
+letter-spacing: -0.14399999380111694px;
+text-align: center;
+
+}
+
+
+
+.left-slideImg{
+    position: relative;
+    top: -9rem;
+    cursor: pointer;
+}
+
+
+.right-slideImg{
+    position: relative;
+    top: -9rem;
+    cursor: pointer;
+    left: 14rem;
+
+}
+
+
+.iphoneSEright{
+left: 7rem;
+position: relative;
 }

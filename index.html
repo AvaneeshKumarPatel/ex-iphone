@@ -133,60 +133,90 @@
 
      <!-- collectection page for slider -->
 
-     
-       
-     <div class="iphone-collection-page">
+     <div class="collection-page">
 
-      <div class="Newest-collect-tagline">
-        <p class="collection-tagline">Newest ex.iphones. Collection</p>
+      <p class="heding-collection-page">Newest ex.iphones. Collection</p>
+
+     <div class="slick-slider">
+ 
+
+             <div class="element element-0">
+
+              <img class="iphoneSE" src="/images/slider/iPhoneSe.png" alt="">
+              <img src="/images/slider/iPhone SE - Available in Midnight, Starlight and (PRODUCT)RED.png" alt="">
+              <img class="left-slideImg" src="/images/slider/slide-btn-left.png" alt="left-slider-btn">
+             <!-- <img class="left-slide-shodow" src="/images/slider/left.png" alt="leftShodw"> -->
+          
+              <p class="verisn">New</p>
+                  <p class="Model">iPhone SE</p>
+                  <p class="product-price-1">From ₹30,000 </p>
+                  <button class="buy-btn">Buy</button>
+             </div>       
+
+      
+
+
+      <div class="element element-1">
+        <img class="img-slider-products" src="/images/slider/iphone 13.jpg" alt="product1 image">
+        <img src="/images/slider/iPhone 13 - Available in Green, Pink, Blue, Midnight, Starlight, and (PRODUCT)RED.png" alt="color variant ">
+        <p class="verisn">New</p>
+        <p class="Model">iPhone 13</p>
+        <p class="product-price-1">From ₹59,000 </p>
+
+        <button class="buy-btn">Buy</button>
       </div>
-       
-      <div class="Slids-icon-btn">
-        <div class="left">
-          <img src="images/slider/slide-btn-left.png" alt="">
-          <span class="gradieant-left"></span>
-    
-        </div>
-         <div class="right">
-          <img src="/images/slider/Slide-btn-right.png" alt="">
-          <span class="gradieant-right"></span>
-         </div>
+      <div class="element element-2">
+        <img class="img-slider-products" src="/images/slider/iphone 14.png" alt="product2 image">
+        <img src="/images/slider/iPhone 14 - Available in Blue, Purple, Yellow, Midnight, Starlight, and (PRODUCT)RED.png" alt="color variant ">
+        <p class="verisn">New</p>
+        <p class="Model">iPhone 14</p>
+        <p class="product-price-2">From ₹69,000 </p>
+
+        <button class="buy-btn">Buy</button>
+
+
       </div>
-         <div class="iphone-products-slides">
-           <div class="slide-1">
-            <img src="/images/slider/iphone 13.jpg" alt="iphone1">
-            <img src="/images/slider/iPhone 13 - Available in Green, Pink, Blue, Midnight, Starlight, and (PRODUCT)RED.png" alt="Available colors">
-            <p>New</p>
-            <p class="model-name">iPhone 13</p>
-            <p class="priceStrt">From ₹59,000</p>
+
+      <div class="element element-3">
+        <img class="img-slider-products" src="/images/slider/iPhone 14pro.jpg" alt="product1 image">
+        <img src="/images/slider/iPhone 14 Pro - Available in Deep Purple, Gold, Silver and Space Black.png" alt="color variant ">
+        <p class="verisn">New</p>
+        <p class="Model">iPhone 14pro</p>
+        <p class="product-price-3">From ₹75,000 </p>
+        <button class="buy-btn">Buy</button>
+      </div>
+      
+      <div class="element element-4">
+              
+        <img class="iphoneSEright" src="/images/slider/iPhoneSe.png" alt="">
+        <img src="/images/slider/iPhone SE - Available in Midnight, Starlight and (PRODUCT)RED.png" alt="">
+        <img class="right-slideImg" src="/images/slider/Slide-btn-right.png" alt="Slide-btn-right">
+          <!-- <img src="/images/slider/Right.png" alt="rightShadew"> -->
+        <p class="verisn">New</p>
+            <p class="Model">iPhone SE</p>
+            <p class="product-price-1">From ₹30,000 </p>
             <button class="buy-btn">Buy</button>
-           </div>
 
-
-           <div class="slide-2">
-            <img src="/images/slider/iPhone 14pro.jpg" alt="iphone2">
-            <img src="/images/slider/iPhone 14 Pro - Available in Deep Purple, Gold, Silver and Space Black.png" alt="Available colors">
-            <p>New</p>
-            <p class="model-name">iPhone 14pro</p>
-            <p class="priceStrt">From ₹75,000</p>
-            <button class="buy-btn">Buy</button>
-
-           </div>
-
-           <div class="slide-3">
-
-            <img src="/images/slider/iphone 14.png" alt="iphone1">
-            <img src="/images/slider/iPhone 14 - Available in Blue, Purple, Yellow, Midnight, Starlight, and (PRODUCT)RED.png" alt="Available colors">
-            <p>New</p>
-            <p class="model-name">iPhone 14</p>
-            <p class="priceStrt">From ₹69,000</p>
-            <button class="buy-btn">Buy</button>
-           </div>
-
-         </div>
-
-     </div>
-
+    </div>
+  </div>
     <script src="/index.js"></script>
+
+  <!-- Js for the slider -->
+<script>
+  $(".slick-slider").slick({
+   slidesToShow: 3,
+   infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 2000
+     // dots: false, Boolean
+    // arrows: false, Boolean
+  });
+
+
+// Image Slider Demo:
+// https://codepen.io/vone8/pen/gOajmOo
+</script>
+
 </body>
 </html>
