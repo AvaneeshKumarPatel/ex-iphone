@@ -445,3 +445,195 @@ text-align: center;
 left: 7rem;
 position: relative;
 }
+
+
+.Availability-1{
+    left: -122px;
+    margin-bottom: -12px;
+    position: relative;
+    top: 24px;
+}
+
+.Availability-2{
+    position: relative;
+    top: 24px;
+}
+
+
+.dsc2{
+    /* display: flex; */
+    margin-top: -27px;
+    margin-left: 170px;
+}
+
+.verisn{
+width: 58px;
+height: 14px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+margin-left: 34px;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: -0.11999999731779099px;
+text-align: center;
+color:  #BF4800;
+
+}
+
+
+.Model-14pro{
+    width: 148px;
+    height: 20px;
+    top: 26px;
+    left: -6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+   
+}
+
+.Model-13{
+    width: 107px;
+    height: 20px;
+    top: 26px;
+    left: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+
+    
+}
+
+.Model-14{
+    width: 109px;
+    height: 20px;
+    top: 26px;
+    left: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+        
+}
+
+
+.product-price{
+width: 125px;
+height: 28px;
+top: 48px;
+left: 6px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: -0.2240000069141388px;
+text-align: center;
+}
+
+
+
+
+ .buy-btn{
+  border: none;
+    border-radius: 10px;
+    width: 121px;
+    height: 39px;
+    top: 264px;
+    left: 582px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #3858D6;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.57px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+
+
+ .desAll{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 25px;
+ }
+
+
+ .verisn1{
+width: 58px;
+height: 14px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+margin-left: 34px;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: -0.11999999731779099px;
+text-align: center;
+color:  #BF4800;
+ }
+
+
+.ModelSE{
+    width: 111px;
+    height: 20px;
+    top: 26px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+   font-size: 23px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: -0.2240000069141388px;
+   text-align: center;
+
+}
+
+   .buy-btnbtnSE2{
+    border: none;
+    border-radius: 10px;
+    width: 121px;
+    height: 39px;
+    top: 264px;
+    left: 582px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #3858D6;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.57px;
+    text-align: center;
+    cursor: pointer;
+   }
+
+
+
+
+
+ #dsc2{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 25px;
+ }
+
