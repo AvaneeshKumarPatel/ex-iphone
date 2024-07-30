@@ -379,6 +379,10 @@ input[type="search"]::-webkit-search-results-decoration {
 
 
 
+
+/* <!-- collectection page for slider --> */
+
+
 .collection-page{
 
 width: 1441px;
@@ -393,11 +397,15 @@ opacity: 0px;
 .slick-slider{
         display: flex;
         justify-content: center;
-        width: 1440px;
+        /* width: 1440px; */
         height: 486px;
         top: 2141px;
         gap: 16px;
         opacity: 0px;
+ transition: transform 0.5s ease-in-out; /* Add transition for smooth sliding */
+  overflow: hidden; /* Hide overflow for slides not in view */
+  width: 100%;
+
         /* margin-top: 16rem;         */
 
 }
@@ -433,10 +441,11 @@ text-align: center;
 
 
 .right-slideImg{
-    position: relative;
+    position: sticky;
     top: -9rem;
     cursor: pointer;
     left: 14rem;
+    margin-bottom: 51px;
 
 }
 
@@ -574,6 +583,7 @@ text-align: center;
     flex-direction: column;
     gap: 9px;
     margin-top: 25px;
+    margin-left: 40px;
  }
 
 
@@ -634,6 +644,104 @@ color:  #BF4800;
     display: flex;
     flex-direction: column;
     gap: 9px;
-    margin-top: 25px;
+    margin-top: 47px;
+    left: -38px;
+    position: relative;
  }
 
+
+ .dsc0{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: -22px;
+
+ }
+
+
+
+.ModelSE0{
+    width: 111px;
+    height: 20px;
+    top: 26px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+   font-size: 23px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: -0.2240000069141388px;
+   text-align: center;
+
+   
+}
+
+
+.product-price-SE0{
+    width: 125px;
+    height: 28px;
+    top: 48px;
+    left: 6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+}
+
+.product-price-1{
+    width: 125px;
+    height: 28px;
+    top: 48px;
+    left: 6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+}
+
+
+.buy-btnSE0{
+    border: none;
+    border-radius: 10px;
+    width: 121px;
+    height: 39px;
+    top: 264px;
+    left: 582px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #3858D6;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.57px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.element-0{
+    margin-left: 71px;
+  
+
+}
+
+
+
+.avlableColorModoel{
+    position: relative;
+    left: 38px;
+    cursor: pointer;
+}
+
+
+.element {
+    /* flex: 0 0 100%; Each slide takes full width */
+  }
