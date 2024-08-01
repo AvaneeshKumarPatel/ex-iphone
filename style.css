@@ -254,6 +254,24 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 
+.category-modal-name{
+
+    position: relative;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2240000069141388px;
+    text-align: center;
+    /* width: 25.2px; */
+    height: 16px;
+    top: 13px;
+    left: 3px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+
+}
 
 
 
@@ -728,7 +746,7 @@ color:  #BF4800;
 
 
 .element-0{
-    margin-left: 71px;
+    /* margin-left: 71px; */
   
 
 }
@@ -743,5 +761,17 @@ color:  #BF4800;
 
 
 .element {
-    /* flex: 0 0 100%; Each slide takes full width */
   }
+
+
+.idShadow0{
+  width: 309px;
+height: 486px;
+/* top: 2141px;
+gap: 0px; */
+/* opacity: 0px; */
+box-shadow: 0px 0px 30px;
+}
+
+
+

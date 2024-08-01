@@ -1,37 +1,35 @@
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const slider = document.querySelector('.slick-slider');
-    const slides = document.querySelectorAll('.element');
-    const totalSlides = slides.length;
-    let currentIndex = 0;
+// const prevButton = document.querySelector('#left-button');
+
+// const sliderImages = document.querySelector('.element');
+
+// const slides = document.querySelectorAll('#right-button');
 
 
+// let index = 0;
 
-
-    function showSlide(index) {
-      // Ensure the index is within the bounds
-      if (index >= totalSlides) {
-        currentIndex = 0;
-      } else if (index < 0) {
-        currentIndex = totalSlides - 1;
-      } else {
-        currentIndex = index;
-      }
-      slider.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-
-    // Event listeners for the buttons
-    document.getElementById('left-button').addEventListener('click', () => {
-     (showSlide(currentIndex - 1)) 
-    });
-
-    document.getElementById('right-button').addEventListener('click', () => {
-      showSlide(currentIndex + 1);
-
+// function showSlide(n) {
+//     if (n >= slides.length) {
+//         index = 0;
+//     } else if (n < 0) {
+//         index = slides.length - 1;
+//     } else {
+//         index = n;
+//     }
+//     sliderImages.style.transform = `translateX(${-index * 100}%)`;
     
-    });
+// }
 
-    // Initial slide
-    showSlide(currentIndex);
-  });
+// prevButton.addEventListener('click', () => {
+//   showSlide(index - 1);
+
+//   console.log(showSlide(index - 1));
+// });
+
+
+// nextButton.addEventListener('click', () => {
+//     showSlide(index + 1);
+
+// });
+
 
